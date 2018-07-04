@@ -1,0 +1,48 @@
+@font-face {
+    font-family: NeverSurrender;
+    src: url(fonts/ns.otf);
+}
+
+html{
+	background-color: gold;	
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mainGrid {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(4, auto);	
+}
+
+h1{
+	text-align: center;
+	
+}
+
+.nav {
+	text-align: center;
+	background-color: black;
+}
+ 
+ li {
+	display: inline-block;
+ }
+.nav li {
+ margin: 0px 10%;
+}
+ 
+.nav li a {
+	color: white;
+	font-family: NeverSurrender;	
+}
+
+.logo{
+	width: 25%;
+	
+}
+
+
